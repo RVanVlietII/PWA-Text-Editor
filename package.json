@@ -16,6 +16,9 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "html-webpack-plugin": "^5.5.3",
+    "nodemon": "^2.0.4",
+    "webpack-pwa-manifest": "^4.3.0",
+    "workbox-webpack-plugin": "^7.0.0"
   }
 }

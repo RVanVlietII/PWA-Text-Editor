@@ -22,6 +22,7 @@ module.exports = () => {
         filename: 'index.html',
       }),
       new WebpackPwaManifest({
+        filename: 'manifest.json',
         name: 'Your Text Editor',
         short_name: 'Text Editor',
         description: 'A Progressive Web App text editor',
