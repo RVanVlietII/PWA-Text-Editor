@@ -11,6 +11,7 @@ This app is a text editer that allows you to edit text online or offline. Includ
 4) `npm run start` to start the application
 
 ## Screenshot
+![Screenshot 2023-11-16 at 2 42 48 PM](https://github.com/RVanVlietII/PWA-Text-Editor/assets/129308007/0a605e10-c00c-46da-bca2-ab10d52e5d85)
 
 ## Links
 Video: `https://drive.google.com/file/d/1CKidxvor-TC1jTYDPGaW1C7d-J6UntKR/view`
