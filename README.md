@@ -13,7 +13,7 @@ This app is a text editer that allows you to edit text online or offline. Includ
 ## Screenshot
 
 ## Links
-Video: 
+Video: `https://drive.google.com/file/d/1CKidxvor-TC1jTYDPGaW1C7d-J6UntKR/view`
 Github: `https://github.com/RVanVlietII/PWA-Text-Editor`
 Heroku: `https://textediter1-da8159a134e5.herokuapp.com/`
 
