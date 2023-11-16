@@ -8,7 +8,7 @@ This app is a text editer that allows you to edit text online or offline. Includ
 1) `git clone` repo from github
 2) `npm install` from client, server and pwa-text-editor folders
 3) `npm run build` to build dist folder
-4) `npm run dev` to start the application
+4) `npm run start` to start the application
 
 ## Screenshot
 
