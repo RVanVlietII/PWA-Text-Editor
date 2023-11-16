@@ -16,14 +16,14 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      // HTMLWebpackPlugin to generate HTML files
+      
       new HtmlWebpackPlugin({
         template: './index.html',
         chunks: ['main'],
         filename: 'index.html',
       }),
 
-      // WebpackPwaManifest to generate manifest file
+    
       new WebpackPwaManifest({
         name: 'Your Text Editor',
         short_name: 'Text Editor',
@@ -32,13 +32,13 @@ module.exports = () => {
         theme_color: '#000000',
       }),
 
-      // InjectManifest for Workbox to use a pre-cached service worker
+     
       new InjectManifest({
         swSrc: './service-worker.js',
         swDest: 'service-worker.js',
       }),
 
-      // WorkboxPlugin to generate service worker
+      
       new WorkboxPlugin.GenerateSW({
         clientsClaim: true,
         skipWaiting: true,
@@ -47,13 +47,13 @@ module.exports = () => {
 
     module: {
       rules: [
-        // CSS loaders
+       
         {
           test: /\.css$/,
           use: ['style-loader', 'css-loader'],
         },
 
-        // Babel loader for JavaScript files
+        
         {
           test: /\.js$/,
           exclude: /node_modules/,
